@@ -11,6 +11,12 @@
 		135CA6E32A44D42D0046E8F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6E22A44D42D0046E8F9 /* ContentView.swift */; };
 		135CA6E52A44D4300046E8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135CA6E42A44D4300046E8F9 /* Assets.xcassets */; };
 		135CA6E82A44D4300046E8F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135CA6E72A44D4300046E8F9 /* Preview Assets.xcassets */; };
+		135CA6EF2A44D59C0046E8F9 /* openingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6EE2A44D59C0046E8F9 /* openingView.swift */; };
+		135CA6F32A44DA920046E8F9 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6F22A44DA920046E8F9 /* homeView.swift */; };
+		135CA6F52A44DC520046E8F9 /* aboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6F42A44DC520046E8F9 /* aboutView.swift */; };
+		135CA6F72A44DC5E0046E8F9 /* characterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6F62A44DC5E0046E8F9 /* characterView.swift */; };
+		135CA6F92A44DC690046E8F9 /* creatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6F82A44DC690046E8F9 /* creatorsView.swift */; };
+		135CA6FB2A44DC700046E8F9 /* shopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA6FA2A44DC700046E8F9 /* shopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		135CA6E22A44D42D0046E8F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		135CA6E42A44D4300046E8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		135CA6E72A44D4300046E8F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		135CA6EE2A44D59C0046E8F9 /* openingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingView.swift; sourceTree = "<group>"; };
+		135CA6F22A44DA920046E8F9 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		135CA6F42A44DC520046E8F9 /* aboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutView.swift; sourceTree = "<group>"; };
+		135CA6F62A44DC5E0046E8F9 /* characterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterView.swift; sourceTree = "<group>"; };
+		135CA6F82A44DC690046E8F9 /* creatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creatorsView.swift; sourceTree = "<group>"; };
+		135CA6FA2A44DC700046E8F9 /* shopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				135CA6E02A44D42D0046E8F9 /* seaBunnyPirateQuestApp.swift */,
 				135CA6E22A44D42D0046E8F9 /* ContentView.swift */,
+				135CA6F22A44DA920046E8F9 /* homeView.swift */,
+				135CA6F42A44DC520046E8F9 /* aboutView.swift */,
+				135CA6F62A44DC5E0046E8F9 /* characterView.swift */,
+				135CA6F82A44DC690046E8F9 /* creatorsView.swift */,
+				135CA6FA2A44DC700046E8F9 /* shopView.swift */,
+				135CA6EE2A44D59C0046E8F9 /* openingView.swift */,
 				135CA6E42A44D4300046E8F9 /* Assets.xcassets */,
 				135CA6E62A44D4300046E8F9 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135CA6EF2A44D59C0046E8F9 /* openingView.swift in Sources */,
+				135CA6F32A44DA920046E8F9 /* homeView.swift in Sources */,
+				135CA6F72A44DC5E0046E8F9 /* characterView.swift in Sources */,
+				135CA6F92A44DC690046E8F9 /* creatorsView.swift in Sources */,
+				135CA6F52A44DC520046E8F9 /* aboutView.swift in Sources */,
 				135CA6E32A44D42D0046E8F9 /* ContentView.swift in Sources */,
+				135CA6FB2A44DC700046E8F9 /* shopView.swift in Sources */,
 				135CA6E12A44D42D0046E8F9 /* seaBunnyPirateQuestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
