@@ -68,10 +68,11 @@ struct creatorsView: View {
                                 .frame(width:100)
                             }
                         }
+                    }
                 }
-                }
-            } .navigationBarHidden(true)    }
-}
+            } .navigationBarHidden(true)
+        }
+    }
 
 struct creatorsView_Previews: PreviewProvider {
     static var previews: some View {
