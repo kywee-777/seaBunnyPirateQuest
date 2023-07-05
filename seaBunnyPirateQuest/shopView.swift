@@ -96,8 +96,9 @@ struct shopView: View {
                                 }
                                 
                                 HStack{
-                                    Image("stickerSheet")
-
+                                    NavigationLink(destination: stickerSheetView()){
+                                        Image("stickerSheet")
+                                    }
                                 }
                                 
                                 Image("blank")
