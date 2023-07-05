@@ -1,13 +1,13 @@
 //
-//  sbPlushView.swift
+//  sbKeychainView.swift
 //  seaBunnyPirateQuest
 //
-//  Created by Kylie Nguyen on 6/28/23.
+//  Created by Kylie Nguyen on 7/5/23.
 //
 
 import SwiftUI
 
-struct sbPlushView: View {
+struct sbKeychainView: View {
     var body: some View {
         NavigationStack{
             ZStack{
@@ -39,7 +39,7 @@ struct sbPlushView: View {
                         .position(x:195, y:150)
                         
                         Group{
-                            Image("sbplushinfo")
+                            Image("sbKeyInfo")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .position(x:195, y:215)
@@ -54,12 +54,11 @@ struct sbPlushView: View {
                     }
                 }
             }
-        } .navigationBarHidden(true)
-    }
+        } .navigationBarHidden(true)    }
 }
 
-struct sbPlushView_Previews: PreviewProvider {
+struct sbKeychainView_Previews: PreviewProvider {
     static var previews: some View {
-        sbPlushView()
+        sbKeychainView()
     }
 }

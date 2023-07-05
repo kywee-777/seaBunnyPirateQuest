@@ -17,20 +17,18 @@ struct creatorsView: View {
                 
                 ScrollView{
                     VStack{
-                        NavigationLink(destination: homeView()) {
-                            Image("iconHeader")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 350.0)
-                                .position(x: 195, y: 170)
-                        }
-                        
+                        Image("iconHeader")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 350.0)
+                            .position(x: 195, y: 170)
+                                                
                         Text("\n\n\n")
                         
                         Image("creatorsTitle")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fill)
-                            .frame(width: 50.0, height: 50.0)
+                            .frame(width: 75.0, height: 75.0)
                         
                         Group{
                             Image("creators")

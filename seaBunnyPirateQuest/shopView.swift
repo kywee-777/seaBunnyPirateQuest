@@ -17,13 +17,11 @@ struct shopView: View {
                 
                 ScrollView{
                     VStack{
-                        NavigationLink(destination: homeView()) {
-                            Image("iconHeader")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 350.0)
-                                .position(x: 195, y: 170)
-                        }
+                        Image("iconHeader")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 350.0)
+                            .position(x: 195, y: 170)
                         
                         Text("\n\n\n")
                         
@@ -56,26 +54,44 @@ struct shopView: View {
                                 }
                                 
                                 HStack{
-                                    Image("sbSticker")
-                                    Image("eliSticker")
+                                    NavigationLink(destination: sbStickerView()){
+                                        Image("sbSticker")
+                                    }
+                                    
+                                    NavigationLink(destination: eliStickerView()){
+                                        Image("eliSticker")
+                                    }
 
                                 }
                                 
                                 HStack{
-                                    Image("ssSticker")
-                                    Image("inkySticker")
-
+                                    NavigationLink(destination: ssStickerView()){
+                                        Image("ssSticker")
+                                    }
+                                    
+                                    NavigationLink(destination: inkyStickerView()){
+                                        Image("inkySticker")
+                                    }
                                 }
                                 
                                 HStack{
-                                    Image("sbKeychain")
-                                    Image("eliKeychain")
+                                    NavigationLink(destination: sbKeychainView()){
+                                        Image("sbKeychain")
+                                    }
 
+                                    NavigationLink(destination: eliKeychainView()){
+                                        Image("eliKeychain")
+                                    }
                                 }
                                 
                                 HStack{
-                                    Image("ssKeychain")
-                                    Image("inkyKeychain")
+                                    NavigationLink(destination: ssKeychainView()){
+                                        Image("ssKeychain")
+                                    }
+
+                                    NavigationLink(destination: inkyKeychainView()){
+                                        Image("inkyKeychain")
+                                    }
 
                                 }
                                 

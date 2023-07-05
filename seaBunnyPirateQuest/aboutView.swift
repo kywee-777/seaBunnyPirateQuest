@@ -16,13 +16,12 @@ struct aboutView: View {
                     .aspectRatio(contentMode: .fill)
                 
                 VStack{
-                    NavigationLink(destination: homeView()) {
-                        Image("iconHeader")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 350.0)
-                            .position(x: 195, y: 170)
-                    }
+                    Image("iconHeader")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 350.0)
+                        .position(x: 195, y: 170)
+                    
                     .toolbar {
                     ToolbarItemGroup(placement: .status) {
                         Group{

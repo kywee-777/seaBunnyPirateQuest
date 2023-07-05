@@ -1,17 +1,17 @@
 //
-//  sbPlushView.swift
+//  inkyStickerView.swift
 //  seaBunnyPirateQuest
 //
-//  Created by Kylie Nguyen on 6/28/23.
+//  Created by Kylie Nguyen on 7/5/23.
 //
 
 import SwiftUI
 
-struct sbPlushView: View {
+struct inkyStickerView: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                Image("sbBG")
+                Image("inkyBG")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 
@@ -39,7 +39,7 @@ struct sbPlushView: View {
                         .position(x:195, y:150)
                         
                         Group{
-                            Image("sbplushinfo")
+                            Image("inkyStickInfo")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .position(x:195, y:215)
@@ -50,16 +50,15 @@ struct sbPlushView: View {
                         .opacity(0.5)
                         .shadow(radius: 20))
                         .position(x:195, y:370)
-
                     }
                 }
             }
-        } .navigationBarHidden(true)
+        }  .navigationBarHidden(true)
     }
 }
 
-struct sbPlushView_Previews: PreviewProvider {
+struct inkyStickerView_Previews: PreviewProvider {
     static var previews: some View {
-        sbPlushView()
+        inkyStickerView()
     }
 }

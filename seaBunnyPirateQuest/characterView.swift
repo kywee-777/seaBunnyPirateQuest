@@ -17,13 +17,11 @@ struct characterView: View {
                 
                 ScrollView{
                     VStack{
-                        NavigationLink(destination: homeView()) {
-                            Image("iconHeader")
-                                .resizable(resizingMode: .stretch)
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 350.0)
-                                .position(x: 195, y: 170)
-                        }
+                        Image("iconHeader")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 350.0)
+                            .position(x: 195, y: 170)
                         
                         Text("\n\n\n")
                         

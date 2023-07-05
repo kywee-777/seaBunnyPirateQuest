@@ -71,39 +71,7 @@ struct homeView: View {
             }
 //            ZStack{
 //                Image("homePage")
-//                    .resizable(resizingMode: .stretch)
-//                    .aspectRatio(contentMode: .fill)
-//
-//                Group{
-//                    Image("homeText")
-//                        .resizable(resizingMode: .stretch)
-//                        .aspectRatio(contentMode: .fit)
-//                }
-//                .padding()
-//                .background(Rectangle() .foregroundColor(.white)
-//                    .cornerRadius(20)
-//                    .opacity(0.5)
-//                    .shadow(radius: 20))
-//                .padding()
-//
-//                NavigationLink(destination: homeView()) {
-//                    Image("iconHeader")
-//                        .resizable(resizingMode: .stretch)
-//                        .aspectRatio(contentMode: .fit)
-//                        .frame(width: 350.0)
-//                        .position(x: 195, y: 170)
-//                }
-//
-//                Image("seaBunny")
-//
-//
-//                .toolbar {
-//                    ToolbarItemGroup(placement: .status) {
-//                        NavigationLink(destination: characterView()) {
-//                            Text("About")
-//                        }
-//                    }
-//                }
+
             } .navigationBarHidden(true)
         }
     }

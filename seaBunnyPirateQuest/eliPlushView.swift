@@ -37,6 +37,19 @@ struct eliPlushView: View {
                             .shadow(radius: 20))
                         }
                         .position(x:195, y:150)
+                        
+                        Group{
+                            Image("eliplushinfo")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .position(x:195, y:215)
+                        }
+                        .padding(4.0)
+                        .background(Rectangle() .foregroundColor(.white)
+                        .cornerRadius(20)
+                        .opacity(0.5)
+                        .shadow(radius: 20))
+                        .position(x:195, y:370)
                     }
                 }
             }
