@@ -31,7 +31,7 @@ struct characterView: View {
                             .frame(width: 50.0, height: 50.0)
                         
                         Group{
-                            Image("characters")
+                            Image("character")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fill)
                         }
